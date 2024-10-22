@@ -12,13 +12,11 @@ body, html {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto 1fr 1fr 1fr auto;
+    grid-template-rows: auto auto 1fr 1fr 1fr auto auto;
     gap: 10px;
     width: 100%;
     height: 100vh;
     background-color: white;
-    border: 1px solid black;
-    box-shadow: 0 0 5px rgba(148, 145, 107, 0.1);
     box-sizing: border-box;
 }
 
